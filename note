@@ -1,0 +1,15 @@
+php artisan krlove:generate:model User
+php artisan krlove:generate:model Class
+php artisan krlove:generate:model ClassCourse
+php artisan krlove:generate:model Course
+php artisan krlove:generate:model Mission
+php artisan krlove:generate:model MissionDetail
+php artisan krlove:generate:model MissionSubmit
+php artisan krlove:generate:model Module
+php artisan krlove:generate:model StudentInfo
+php artisan krlove:generate:model TeacherClassCourse
+php artisan krlove:generate:model TeacherInfo
+php artisan krlove:generate:model ViewClassModule
+
+
+

@@ -1,0 +1,31 @@
+Ref: "classes"."user_id" > "users"."id"
+
+Ref: "student_infos"."user_id" > "users"."id"
+
+Ref: "teacher_infos"."user_id" > "users"."id"
+
+Ref: "student_infos"."class_id" > "classes"."id"
+
+Ref: "class_courses"."class_id" > "classes"."id"
+
+Ref: "class_courses"."course_id" > "courses"."id"
+
+Ref: "teacher_class_courses"."class_course_id" > "class_courses"."id"
+
+Ref: "teacher_class_courses"."user_id" > "users"."id"
+
+Ref: "missions"."class_course_id" > "class_courses"."id"
+
+Ref: "mission_details"."mission_id" > "missions"."id"
+
+Ref: "mission_submits"."mission_detail_id" > "mission_details"."id"
+
+Ref: "mission_submits"."user_id" > "users"."id"
+
+Ref: "class_modules"."class_id" > "classes"."id"
+
+Ref: "class_modules"."module_id" > "modules"."id"
+
+Ref: "view_class_modules"."class_module_id" > "class_modules"."id"
+
+Ref: "view_class_modules"."user_id" > "users"."id"

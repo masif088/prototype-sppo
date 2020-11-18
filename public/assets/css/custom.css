@@ -1,0 +1,26 @@
+.btn{
+    margin: 5px;
+}
+
+.dt-button.buttons-csv.buttons-html5,.dt-button.buttons-excel.buttons-html5{
+    color: #fff;
+    background: #6777ef;
+    border-color: #6777ef;
+    box-shadow: 0 2px 6px #acb5f6;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    padding: .3rem .8rem;
+    letter-spacing: .5px;
+    border-radius: .30em;
+    margin: 5px;
+}
+
+.dt-button.buttons-csv.buttons-html5:hover, .dt-button.buttons-excel.buttons-html5:hover{
+    background: #394eea !important;
+    color: white;
+    border-color: transparent !important;
+}
+#table_filter{
+    float: right;
+}
